@@ -23,7 +23,9 @@ public class StandardOutMessageRenderer {
 		      throw new RuntimeException(
 		          "You must set the property messageProvider of class:"
 		              + StandardOutMessageRenderer.class.getName());
+		      
 		}
+		    System.out.println(messageProvider.getMessage());
 
-	  
+	  }  
 }
