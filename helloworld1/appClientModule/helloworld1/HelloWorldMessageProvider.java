@@ -7,7 +7,8 @@ public class HelloWorldMessageProvider {
 
 	public String getMessage()
 	{
-		return "Hello world";
+		//return "";
+		return "Hello world-from helooworldmessage provider class";
 	}
 	
 	
