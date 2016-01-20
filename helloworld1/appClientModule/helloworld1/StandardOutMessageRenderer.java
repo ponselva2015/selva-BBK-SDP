@@ -1,15 +1,15 @@
 package helloworld1;
 
-public class StandardOutMessageRenderer {
+public class StandardOutMessageRenderer implements MessageRenderer {
 	//Private variable of type provider object 
 	//declared and set to null as this as an instance varibale
 	  private HelloWorldMessageProvider messageProvider = null;
 	  
-	  public void setMessageProvider(HelloWorldMessageProvider provider) 
-	   {
-		  //setter method 
-		  //private variable is assigned the passed value.
-		    this.messageProvider = provider;
+	  
+	  
+	  public void setMessageProvider(MessageProvider provider)
+	  {
+		    this.messageProvider = (HelloWorldMessageProvider) provider;
 		}
 	  
 	  public HelloWorldMessageProvider getMessageProvider()
@@ -27,5 +27,7 @@ public class StandardOutMessageRenderer {
 		}
 		    System.out.println(messageProvider.getMessage());
 
-	  }  
+	  }
+
+ 
 }
