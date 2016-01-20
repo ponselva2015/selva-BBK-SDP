@@ -1,6 +1,6 @@
 package helloworld1;
 
-public class HelloWorldMessageProvider {
+public class HelloWorldMessageProvider implements MessageProvider{
 	//Message provider logic is separated
 	// from rest of the logic
 	
@@ -13,3 +13,4 @@ public class HelloWorldMessageProvider {
 	
 	
 }
+
