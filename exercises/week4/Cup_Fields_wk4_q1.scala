@@ -1,6 +1,6 @@
 
-package week6
-//pattern matching exercise from week6
+package week4
+//pattern matching exercise from week4
 //Exercise 10.
 
 import AtomicTest._
