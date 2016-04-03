@@ -1,0 +1,8 @@
+f0 lin 20 6
+f1 lin 21 1
+f2 lin 22 30
+f3 mul 26 21 20
+f4 sub 27 20 22
+f5 bnz 15 f3
+f6 out 29
+f7 lin 0 111
