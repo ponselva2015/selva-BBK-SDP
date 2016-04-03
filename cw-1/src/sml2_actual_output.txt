@@ -1,0 +1,21 @@
+Here is the program; it has 12 instructions.
+f0: lin register 20 value is 9
+f1: lin register 21 value is 1
+f2: lin register 22 value is 1
+f3: mul 21 * 20 to 21
+f4: sub 20 - 22 to 20
+f5: bnz register 20 go to f3
+f6: out register 21
+f7: lin register 5 value is 100
+f8: lin register 6 value is 200
+f9: add 5 + 6 to 7
+f10: lin register 13 value is 4444
+f11: out register 13
+
+Beginning program execution.
+362880
+4444
+Ending program execution.
+Values of registers at program termination:
+sml.Registers(registers=[0, 0, 0, 0, 0, 100, 200, 300, 0, 0, 0, 0, 0, 4444, 0, 0, 0, 0, 0, 0, 0, 362880, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]).
+
