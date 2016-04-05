@@ -1,0 +1,21 @@
+17:48:26,700 I: (ErlangCore.java:64) : Starting CORE Thread[Worker-4,5,main]
+17:48:26,700 I: (ErlangCore.java:79) : *** starting Erlide v0.29.13.201509091656 (core=0.24.13.201509091656) (model api=0.24.12.201509091656) *** (Cp1252) ui
+17:48:26,736 I: (ErlangCore.java:86) : Started CORE
+17:48:26,739 F: (ErlangPlugin.java:88) : Core started
+17:48:27,529 F: (ErlangHostnameRetriever.java:40) : Test long hostname: CSPC047.dcs.bbk.ac.uk
+17:48:27,788 F: (ErlangHostnameRetriever.java:40) : Test short hostname: CSPC047
+17:48:27,802 F: (HostnameUtils.java:74) : Detected:: CSPC047 && CSPC047.dcs.bbk.ac.uk
+17:48:27,824 F: (BackendActivator.java:25) : Backend plugin started
+17:48:27,828 I: (ErlideUIPlugin.java:130) : Starting UI Thread[Worker-4,5,main]
+17:48:27,832 F: (ModelActivator.java:19) : Starting Erlang model api
+17:48:27,847 F: (BackendFactory.java:42) : Create ide backend 18.0.0
+17:48:27,849 F: (BackendFactory.java:56) : Create backend e2f65_skuppu01_582541_erlide
+17:48:27,912 F: (OtpNodeProxy.java:301) : Runtime e2f65_skuppu01_582541_erlide@CSPC047.dcs.bbk.ac.uk starting
+17:48:27,914 F: (OtpNodeProxy.java:419) : START node :> ["c:\program files\erl7.0/bin/erl", -name, e2f65_skuppu01_582541_erlide@CSPC047.dcs.bbk.ac.uk, -setcookie, erlide] *** H:\week6
+17:48:27,931 F: (OtpNodeProxy.java:212) : e2f65_skuppu01_582541_erlide@CSPC047.dcs.bbk.ac.uk: waiting connection to peer... 
+17:48:28,354 F: (OtpNodeProxy.java:219) : connected!
+17:48:28,462 F: (OtpNodeProxy.java:306) : Runtime e2f65_skuppu01_582541_erlide@CSPC047.dcs.bbk.ac.uk running
+17:48:28,561 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_7582593@CSPC047.dcs.bbk.ac.uk'}
+17:48:28,563 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
+17:48:28,984 F: (ModelActivator.java:30) : Started model api
+17:48:28,991 I: (ErlideUIPlugin.java:152) : Started UI
