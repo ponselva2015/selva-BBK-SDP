@@ -1,0 +1,16 @@
+
+Adam Warner [New York] getting update: Welcome to live Soccer match
+Tim Ronney [London] getting update: Welcome to live Soccer match
+Adam Warner [New York] getting update: Current score 0-0
+Tim Ronney [London] getting update: Current score 0-0
+
+
+Adam Warner [New York] getting update: It's a goal!!
+Adam Warner [New York] getting update: Current score 1-0
+
+
+Adam Warner [New York] getting update: It's another goal!!
+Marie [Paris] getting update: It's another goal!!
+Adam Warner [New York] getting update: Half-time score 2-0
+Marie [Paris] getting update: Half-time score 2-0
+
